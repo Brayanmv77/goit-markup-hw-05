@@ -99,6 +99,21 @@ header {
   color: var(--brand-color);
 }
 
+.header-link::after {
+  content: '';
+  display: none;
+  width: 48px;
+  height: 4px;
+  background-image: url(/images/line.png);
+  background-size: contain;
+  position: relative;
+  top: 32px;
+}
+
+.header-link:hover::after {
+  display: block;
+}
+
 .contact-information {
   display: flex;
   justify-content: flex-end;
@@ -238,7 +253,7 @@ header {
 
 .imagenes-bar {
   color: #fff;
-  background-color: rgba(47, 48, 58, 0.8);;
+  background-color: rgba(47, 48, 58, 0.8);
   font-weight: 700px;
   line-height: 16px;
   text-align: center;
@@ -247,7 +262,7 @@ header {
   padding: 27px 79px;
 
   position: absolute;
-  bottom: 5px; 
+  bottom: 5px;
   width: 373px;
   height: 70px;
 }
