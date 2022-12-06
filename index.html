@@ -72,9 +72,14 @@
     <main>
       <section class="title" id="estudio">
         <h1 class="title-text">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-        <button type="button" class="title-button">
+        <button data-modal-open type="button" class="title-button">
           Solicite nuestro servicio
         </button>
+        <section class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <button class="modal-close" data-modal-close>X</button>
+          </div>
+        </section>
       </section>
       <section class="container">
         <section class="attribute-table">
@@ -592,5 +597,6 @@
         </section>
       </section>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
