@@ -104,7 +104,7 @@ header {
   display: none;
   width: 48px;
   height: 4px;
-  background-image: url(/images/line.png);
+  background-image: url(./images/line.png);
   background-size: contain;
   position: relative;
   top: 32px;
